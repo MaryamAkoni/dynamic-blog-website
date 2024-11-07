@@ -1,0 +1,162 @@
+/*Styling for all three html pages*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3d2828;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    margin: 20px;
+}
+
+:root {
+    --main-color: #cc4b4b;
+    --secondary-color: #4e9ae7;
+    --font-size-large: 24px;
+}
+
+h1 {
+    color: rgb(222, 25, 124);
+    font-size: var(--font-size-large);
+    text-align: center;
+}
+
+h2 {
+    color: #ef0a56;
+    font-size: var(--font-size-large);
+    text-align: center;
+    background-color: rgb(234, 227, 227);
+}
+
+h3 {
+    color: rgb(16, 15, 15);
+    font-size: var(--font --font-size-medium);
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(232, 225, 225);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: rgb(251, 244, 244);
+    font-size: var(--font-size-xsmall);
+    text-align: center;
+}
+
+a {
+    color: rgb(251, 244, 244);
+    font-size: var(--font-size-medium);
+    text-align: center;
+    margin: 30px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #362525;
+    color: rgb(239, 232, 232);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*Css styling for the form in new-post.html*/
+
+form{
+    background-color: rgb(244, 232, 232);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset;
+    width: 800px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+    
+}
+
+button[type="submit"] {
+    background-color: #412830;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
+
+button[type="submit"]:hover {
+    background-color: #204e1c;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #da2570;
+}
+
+@media (max-width: 768px) {
+    .post-item {
+        width: 100%;
+    }
+}
+
+.post-item {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.post-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+  
