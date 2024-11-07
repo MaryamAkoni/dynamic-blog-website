@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Posts</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> 
+</head>
+
+<body>
+    <header>
+        <nav>
+           <a href="index.html">Return to Homepage</a>
+           <a href="post.html">Edit old posts</a>
+        </nav>
+    </header>
+    <br>
+    <h1>Create New Posts</h1>
+    <p>This page is for creating a new post</p>
+
+    <form action="#"method="POST"><br>
+        <label for="title">Title of your post</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="content">Contents of your post</label>
+        <input type="text" id="content" name="content" rows="8" required>
+        <br><br>
+
+        <label for="image">Attach an image to your post here</label>
+        <input type="file" id="image" name="image"><br><br>
+
+        <label for="image">Add an Image URL here (Optional):</label>
+        <input type="url" id="image" name="image">
+        
+        <button type="submit" class="button"> Submit post</button><br><br><br>
+    </form>
+
+    <br><br>
+
+    <!-- Additional link back to the Homepage -->
+    <br><a href="index.html">Go Back to Blog Homepage</a>
+
+      
+    <footer>
+        <p>&copy; 2024 The Minimalist Enclosure. All rights reserved.</p>
+    </footer>
+</body>
+</html>
