@@ -44,7 +44,7 @@ const form = document.getElementById('submitForm');
             postDiv.className = 'post-item';
             postDiv.innerHTML = `
                 <h3>${post.title}</h3>
-                <p>${post.content}...</p>
+                <p>${post.content}</p>
                 <a href="post.html?id=${index}" class="btn">View/Edit</a>
             `
             ;
