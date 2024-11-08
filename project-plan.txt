@@ -1,0 +1,7 @@
+This is the plan for my Blog Website
+
+index.html - homepage and layout of all blog posts
+new-post.html - to create a new post
+post.html - to view, and edit posts
+script.js - for CRUD operations
+style.css - for styling the homepage
